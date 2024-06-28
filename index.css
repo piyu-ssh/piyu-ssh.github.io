@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap");
+/*
+font-family: "Playwrite NG Modern", cursive;
+font-family: "Caveat", cursive;
+font-family: "Playwrite DE Grund", cursive;
+font-family: "Playwrite ES Deco", cursive;
+font-family: "Playwrite NG Modern", cursive;
+*/
+
+html {
+    font-family: "Playwrite NG Modern", cursive;
+    /* color: rgb(243, 202, 245); */
+    /* background-image: url("/pawel-czerwinski-1A_dO4TFKgM-unsplash.jpg");
+    background-size: cover; */
+}
+
+span > a {
+  text-decoration: none;
+  /* color: rgb(243, 202, 245); */
+  color: black;
+}
+
+span > a:hover {
+  /* color: rgb(207, 20, 220); */
+  color: crimson;
+}
+
+ol {
+  list-style-type: circle;
+}
+li > a {
+  text-decoration: none;
+}
+li > a:hover {
+  /* color: rgb(207, 20, 220); */
+  font-weight: bolder;
+}
+li > a {
+  text-decoration: none;
+  /* color: rgb(243, 202, 245); */
+}
