@@ -6,7 +6,7 @@
 .div1 {
     background-color: black;
     border: 8px solid crimson;
-    height: 550px;
+    height: 800px;
     width: 550px;
     padding: 15px;
     margin: 15px;
@@ -14,4 +14,5 @@
     background-image: url('IMG_20240622_102739.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
