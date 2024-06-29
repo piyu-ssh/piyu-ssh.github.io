@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    background-color: black;
+    border: 8px solid crimson;
+    height: 550px;
+    width: 550px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 50px;
+    background-image: url('IMG_20240622_102739.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
