@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+/*
+font-family: "Playwrite NG Modern", cursive;
+font-family: "Caveat", cursive;
+font-family: "Playwrite DE Grund", cursive;
+font-family: "Playwrite ES Deco", cursive;
+font-family: "Playwrite NG Modern", cursive;
+font-family: "Playwrite ID", cursive;
+---> Use Kode Mono for Explaining Codes, It is more convenient <---
+font-family: "Kode Mono", monospace;
+font-family: "Kode Mono", monospace;
+*/
+html {
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+.visible-text {
+    font-size: large;
+}
+
+.visible-code {
+    border: 3px solid rgb(0, 0, 0);
+    /* border-width: 2px; */
+    /* background-color: white; */
+    color: rgb(21, 21, 21);
+    background-color: rgb(245, 248, 246);
+    font-family: "Kode Mono", monospace;
+}
+
+.div1 {
+    width: 1000px;
+    height: 800px;
+    background-color:rgb(169, 191, 233);
+    color: white;
+    background-image: url('/background-properties/background-attachment/sh_opera_0503.PNG');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+}
+
+.div2{
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(169, 191, 233);
+    color: white;
+    background-image: url('/background-properties/background-attachment/sh_opera_0503.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 980px 680px;
+}
+.div3{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(169, 191, 233);
+    color: white;
+    background-image: url('/background-properties/background-attachment/sh_opera_0503.PNG');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-attachment: fixed;
+}
