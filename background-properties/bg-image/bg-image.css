@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+/*
+font-family: "Playwrite NG Modern", cursive;
+font-family: "Caveat", cursive;
+font-family: "Playwrite DE Grund", cursive;
+font-family: "Playwrite ES Deco", cursive;
+font-family: "Playwrite NG Modern", cursive;
+font-family: "Playwrite ID", cursive;
+---> Use Kode Mono for Explaining Codes, It is more convenient <---
+font-family: "Kode Mono", monospace;
+*/
+
+html {
+    
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+.container {
+    height: 920px;
+    width: 700px;
+    /* Main property used here, */
+    background-image: url('/background-properties/bg-image/duck.jpg');
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(199, 199, 199);
+    
+}
+
+.prop-name:hover {
+    color: rgb(72, 118, 204);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.info{
+    font-family: "Kode Mono", monospace;
+}
+
+.info .excluded-p {
+    
+    font-family: "Playwrite NG Modern", cursive;
+}
