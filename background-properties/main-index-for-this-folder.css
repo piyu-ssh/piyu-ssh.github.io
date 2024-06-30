@@ -14,35 +14,16 @@ font-family: "Kode Mono", monospace;
 */
 
 html {
-    
     font-family: "Playwrite NG Modern", cursive;
 }
 
-.container {
-    height: 920px;
-    width: 700px;
-    /* Main property used here, */
-    background-image: url('/background-properties/bg-image/duck.jpg');
-    background-position: left center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: rgb(199, 199, 199);
-    
+ul {
+    list-style-type: circle;
 }
-
-.prop-name:hover {
-    color: rgb(72, 118, 204);
+.quick-links li a {
     text-decoration: none;
-    cursor: pointer;
 }
-
-
-.info-for-container{
-    font-family: "Kode Mono", monospace;
+.quick-links li a:hover {
+    color: rgb(198, 78, 78);
+    font-size: large;
 }
-
-.info-for-container .excluded-p {
-    
-    font-family: "Playwrite NG Modern", cursive;
-}
-
