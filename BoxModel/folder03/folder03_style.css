@@ -17,12 +17,14 @@ html {
     font-family: "Playwrite NG Modern", cursive;
 }
 
-.visible-text {
+.visible-text, .info {
     font-weight: bold;
 }
+
 .info-for-container {
     font-family: "Kode Mono", monospace; 
 }
+
 #container {
     height: 650px;
     width: 650px;
@@ -31,7 +33,37 @@ html {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center top;
-    /* Main property */
     padding: 40px;
     margin: 40px;
+}
+
+#container01{
+    height: 650px;
+    width: 650px;
+    background-color: crimson;
+    background-image: url('/BoxModel/folder03/square.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* Other ways to set Margin & Padding, */
+    margin: 20px 40px 60px 80px; 
+}
+
+#container .visible-text, #container01 .visible-text {
+    color: white;
+}
+
+#container02{
+    height: 750px;
+    width: 750px;
+    background-color: navy;
+    background-image: url('/BoxModel/folder03/square.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Other ways to set Margin & Padding, */
+    background-size: 750px 750px;
+    margin: 40px 40px 40px 40px; 
+    padding: 100px 100px 100px 100px;
+    border: 10px solid black;
 }
