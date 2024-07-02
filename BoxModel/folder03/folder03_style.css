@@ -49,7 +49,7 @@ html {
     margin: 20px 40px 60px 80px; 
 }
 
-#container .visible-text, #container01 .visible-text {
+#container .visible-text, #container01 .visible-text, #container02 .visible-text {
     color: white;
 }
 
