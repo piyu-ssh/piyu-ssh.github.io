@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+/* slabo-13px-regular-
+ -- Selector -- {
+  font-family: "Slabo 13px", serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+*/
+/* ---------------------------------------------- */
+
+/* -> Best for displaying Code part, */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+/* 
+.kode-mono-
+-- selector -- {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}  */
+/* ---------------------------------------------- */
+
+/* -> Handwirting type font */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+/* 
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Slabo 13px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#div1 {
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+}
+#div2 {
+    background-color: rgb(120, 220, 20);
+    height: 200px;
+    width: 200px;
+    margin: 35px;
+}
