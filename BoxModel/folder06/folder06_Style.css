@@ -1,0 +1,36 @@
+#div1 {
+    background-color: red;
+    height: 300px;
+    width: 220px;
+    border: 5px solid black;
+}
+
+#div2 {
+    background-color: darkgreen;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    border: 5px solid lightsalmon;
+    box-sizing: content-box;
+}
+#div3 {
+    background-color: red;
+    height: 300px;
+    width: 220px;
+    border: 5px solid black;
+}
+
+#div4 {
+    background-color: darkgreen;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    border: 5px solid lightsalmon;
+    box-sizing: border-box;
+}
+.must-be-unique {
+    color: red;
+}
+span a {
+    text-decoration: none;
+}
