@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+/*
+font-family: "Playwrite NG Modern", cursive;
+font-family: "Caveat", cursive;
+font-family: "Playwrite DE Grund", cursive;
+font-family: "Playwrite ES Deco", cursive;
+font-family: "Playwrite NG Modern", cursive;
+font-family: "Playwrite ID", cursive;
+---> Use Kode Mono for Explaining Codes, It is more convenient <---
+font-family: "Kode Mono", monospace;
+*/
+
+html {
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+.span1 {
+    color: white;
+    background-color: black;
+    /* Can't set Height & Width in <span> */
+    /* height: 60px;
+    width: 60px; */
+}
+.span2 {
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+
+.updated-span1{
+    color: white;
+    background-color: black;
+    display: block;
+}
+
+.updated-span2{
+    color: white;
+    background-color: rgb(56, 56, 56);
+    display: block;
+}
+
+.code-information {
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+.code-information pre {
+    font-family: "Kode Mono", monospace;
+}
