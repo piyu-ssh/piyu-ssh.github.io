@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DisplayInline_Style.css">
+    <title>display : inline;</title>
+</head>
+<body>
+    <h1>display : inline &semi;</h1>
+    <div class="code-information">
+        <p>As you can see here, I created two div's i.e.- container & container01, to show you "display: inline&semi;" property.</p>
+        <h4>Code-</h4>
+        <code>
+            <pre>
+.container {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+}
+
+.container01 {
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
+}                               
+            </pre>
+        </code>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit
+    </div>
+    <div class="container01">
+        Lorem ipsum dolor sit,
+    </div>
+    <hr>
+    <div class="information">
+        <p>Let's apply <strong class="UrlToMDNReference"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" target="_blank">display: inline&semi;</a></strong> to both of the div's to see the property in action!</p>
+    </div>
+    <div class="container new-container">
+        Lorem ipsum dolor sit
+    </div>
+    <div class="container01 new-container01">
+        Lorem ipsum dolor sit,
+    </div>
+    <hr>
+    <div class="information">
+        As you can see, so basically this rule treats any block element as an inline elements, [You can not set Height & Width as well as Top & Bottom margin and padding!]
+        <h4>Code, dat was applied on new-container and new-container01-</h4>
+        <code>
+            <pre>
+.new-container {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+
+.new-container01 {
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
+    display: inline;
+}                
+            </pre>
+        </code>
+    </div>
+</body>
+</html>

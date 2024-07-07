@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playwrite+IT+Moderna:wght@100..400&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.wittgenstein-<uniquifier> {
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  }
+  
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 400
+  
+  .playwrite-it-moderna-<uniquifier> {
+    }
+    
+    .baskervville-sc-regular {
+      font-family: "Baskervville SC", serif;
+      font-weight: 400;
+      font-style: normal;
+      }
+      */
+      
+      html {
+        font-family: "Playwrite IT Moderna", cursive;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
+      }
+
+.container {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .container01 {
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
+  }
+  .new-container {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    display: inline;
+  }
+  
+  .new-container01 {
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
+    display: inline;
+  }
+  
+  .UrlToMDNReference a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    font-weight: bolder;
+  }
+  
+  .UrlToMDNReference a:hover {
+    color: red;
+    font-weight: bolder;
+  }
+  
+  pre, h1 {
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
