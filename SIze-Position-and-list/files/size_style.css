@@ -1,0 +1,19 @@
+.container {
+    font-size: 20px;
+    /* font-size: 2rem; */
+
+}
+
+.child {
+    font-size: 2em;
+}
+
+.information {
+    width: 35vw;
+    height: 50vh;
+    background-color: crimson;
+    background-image: url('/SIze-Position-and-list/items/code_01.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

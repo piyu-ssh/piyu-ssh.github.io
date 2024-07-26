@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 700
+
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  } 
+  */
+  
+html {
+    font-family: "Lora", serif;    
+}
+
+.specific {
+    color: crimson;
+
+}
+
+.specific:hover {
+    color: crimson;
+    font-weight: 100;
+}
+.container {
+    font-size: 18px;
+    color: cornflowerblue;
+}
+.child-container {
+    font-size: 1.1em;
+    color: darkred;
+}
+
+.img {
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(238, 255, 231);
+    background-image: url('../items/em\ ki\ image\ \(001\).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

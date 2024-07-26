@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+/*
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 700
+
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  } 
+  */
+
+html {
+  font-family: "Lora", serif;
+  /* By default, the font size of HTML (root element) is 16px */
+}
+
+.div1 {
+    font-size:  1.5rem;
+}
+
+code {
+    /* font-size: 1rem; */
+    font-weight: 100;
+}

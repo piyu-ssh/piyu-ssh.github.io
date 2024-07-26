@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="em_style.css" />
+    <title>EM</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        In this webpage, I will show you about units in CSS, more specifically
+        about <span class="specific">em</span> unit!
+      </h1>
+    </header>
+    <h2>
+      Short me samaj loo em unit ka main use hota ha aapne parent element ka
+      font size, jaise me dhikata hu-
+    </h2>
+    <div class="container">
+      <p>
+        Ye mene ek div banaya container ke name se and me isme ye paragraph likh
+        rha hu, thik,
+      </p>
+      <div class="child-container">
+        ye text jo me likh rha hu vo child-container me likha hu,
+      </div>
+    </div>
+    <hr />
+    <div class="explain">
+      <p>aab hoga kya-</p>
+      <div class="code">
+        <pre>
+                <code>
+.container {
+    font-size: 18px;
+    color: cornflowerblue;
+}
+.child-container {
+    font-size: 1.1em;
+    color: darkred;
+}
+                </code>
+              </pre>
+        <hr />
+        <p>
+          Jaise isme .container ka size mene "18px" set kia, and I know ki iska
+          child element ko mujhe thoda sa bada show karna ha, to mene
+          .child-container ka size 1.1 em de diya, jo 18*1.1 = 19.8 px ho gya
+          ha, (aap ye cheez inspect karke khud se bhi verify kar sakte hain!)
+        </p>
+        <div class="img"></div>
+      </div>
+    </div>
+  </body>
+</html>
